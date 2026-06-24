@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Predictor League</title>
+  <script>
+    const path = window.location.pathname;
+    const segments = path.split('/');
+    const challengeId = segments[segments.length - 1];
+    
+    if (challengeId && challengeId !== 'predictor-league') {
+      const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.example.predictor_league';
+      setTimeout(function() {
+        window.location = playStoreUrl;
+      }, 2000);
+    }
+  </script>
+</head>
+<body>
+  <p>Opening Predictor League...</p>
+  <p>If nothing happens, <a href="https://play.google.com/store/apps/details?id=com.example.predictor_league">click here</a> to download the app.</p>
+</body>
+</html>
