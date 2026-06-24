@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.predictor_league",
+    "sha256_cert_fingerprints":
+    ["78:24:DE:2B:26:F4:88:13:6F:17:F7:A2:08:4F:84:B0:CF:3F:07:42:B9:1C:AB:C0:D1:92:E0:57:A9:56:0A:29"]
+  }
+}]
